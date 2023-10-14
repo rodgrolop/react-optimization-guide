@@ -1,0 +1,38 @@
+{
+  "name": "@rgl-react-optimization/vite-preact-reactquery",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && pwa-assets-generator && vite build",
+    "preview": "vite preview",
+    "generate-pwa-assets": "pwa-assets-generator"
+  },
+  "dependencies": {
+    "@emotion/react": "11.11.1",
+    "@emotion/styled": "11.11.0",
+    "@mui/icons-material": "5.14.11",
+    "@mui/material": "5.14.11",
+    "@tanstack/react-query": "4.35.3",
+    "graphql": "16.8.1",
+    "graphql-request": "6.1.0",
+    "preact": "10.18.0",
+    "preact-markdown": "2.1.0",
+    "react-router-dom": "6.16.0",
+    "talkr": "3.4.0"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "2.5.0",
+    "@rollup/plugin-terser": "0.4.3",
+    "@types/node": "20.8.0",
+    "@vite-pwa/assets-generator": "0.0.10",
+    "rollup-plugin-gzip": "3.1.0",
+    "terser": "5.20.0",
+    "typescript": "5.2.2",
+    "vite": "4.4.9",
+    "vite-plugin-pwa": "0.16.5"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

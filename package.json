@@ -1,0 +1,20 @@
+{
+  "name": "@rgl-react-optimization/core",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/rodgrolop/react-optimization-guide.git",
+  "author": "rodgrolop <rodrigogrosslopez@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "yarn lerna run build",
+    "dev": "yarn lerna run dev"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^7.3.1"
+  },
+  "dependencies": {}
+}

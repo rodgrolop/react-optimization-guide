@@ -1,0 +1,36 @@
+{
+  "name": "@rgl-react-optimization/backend",
+  "version": "0.1.0",
+  "description": "Strapi",
+  "scripts": {
+    "dev": "NODE_ENV=development strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/plugin-documentation": "4.11.7",
+    "@strapi/plugin-graphql": "4.11.7",
+    "@strapi/plugin-i18n": "4.11.7",
+    "@strapi/plugin-users-permissions": "4.11.7",
+    "@strapi/strapi": "4.11.7",
+    "better-sqlite3": "8.5.0",
+    "pg": "^8.11.2",
+    "strapi-plugin-placeholder": "^4.4.0"
+  },
+  "author": {
+    "name": "RGL"
+  },
+  "strapi": {
+    "uuid": "bf54e5cf-69c2-4d5a-a07e-5b273d40fadb"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
