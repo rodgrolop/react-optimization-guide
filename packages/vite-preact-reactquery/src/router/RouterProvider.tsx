@@ -18,12 +18,6 @@ const Blog = lazy(() => import("./../pages/blog/blog/Blog"));
 const About = lazy(() => import("./../pages/about/About"));
 const SingleBlog = lazy(() => import("./../pages/blog/single-blog/SingleBlog"));
 
-// Legal
-const PrivacyPolicy = lazy(
-  () => import("./../pages/legal/privacy/PrivacyPolicy")
-);
-const Terms = lazy(() => import("./../pages/legal/terms/Terms"));
-
 // Private
 const Test = lazy(() => import("./../pages/test/Test"));
 
@@ -68,14 +62,6 @@ const router = createBrowserRouter([
       {
         path: "about-me",
         element: <About />,
-      },
-      {
-        path: "privacy-policy",
-        element: <PrivacyPolicy />,
-      },
-      {
-        path: "terms-of-service",
-        element: <Terms />,
       },
     ],
   },

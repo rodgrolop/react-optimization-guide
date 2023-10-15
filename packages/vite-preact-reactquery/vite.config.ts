@@ -17,8 +17,8 @@ export default defineConfig({
       registerType: "autoUpdate",
       includeAssets: ["favicon.ico", "apple-touch-icon.png", "mask-icon.svg"],
       manifest: {
-        name: "rgl-website",
-        short_name: "RGL Website",
+        name: "",
+        short_name: "",
         description: "",
         start_url: ".",
         theme_color: "#212121",

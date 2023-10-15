@@ -64,22 +64,6 @@ const Footer = (): VNode => {
             paddingBottom: 2,
           }}
         >
-          <Link to="/privacy-policy" style={styles.footerLinks}>
-            {T("privacyPolicy")}
-          </Link>
-          <Link to="/terms-of-service" style={styles.footerLinks}>
-            {T("termsOfService")}
-          </Link>
-        </Grid>
-        <Grid
-          container={true}
-          direction="row"
-          justifyContent="center"
-          alignItems="center"
-          sx={{
-            paddingBottom: 2,
-          }}
-        >
           <Typography align="center" variant="caption">
             © 2023 Hari Seldon
           </Typography>
