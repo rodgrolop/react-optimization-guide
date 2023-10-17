@@ -1,7 +1,7 @@
-import { useEffect } from 'react'
+import { Suspense, useEffect } from 'react'
 import { useLocation, useNavigate, Outlet } from 'react-router-dom'
 
-import { AppBar, Drawer, Footer } from '@components'
+import { ViewLoader, AppBar, Drawer, Footer } from '@components'
 import { useRecoilValue } from 'recoil'
 import { userAtom } from '@atoms'
 
@@ -23,7 +23,9 @@ const ProtectedLayout = () => {
         <>
             <AppBar />
             <Drawer />
-            <Outlet />
+            <Suspense fallback={<ViewLoader />}>
+                <Outlet />
+            </Suspense>
             <Footer />
         </>
     )
