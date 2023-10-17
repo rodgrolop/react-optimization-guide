@@ -10,7 +10,7 @@ const HeroImage = (): VNode => (
   <Grid
     container={true}
     direction="column"
-    sx={{ minHeight: { xs: 360, sm: 480 }, ...styles.heroBackground }}
+    sx={{ ...styles.heroBackground, minHeight: { xs: 360, sm: 480 } }}
   >
     <Grid
       container

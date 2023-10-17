@@ -1,5 +1,5 @@
 {
-    "name": "@rgl-react-optimization/craco",
+    "name": "@rgl-react-optimization/craco-lazy-routes",
     "version": "1.0.0",
     "private": true,
     "sideEffects": [
@@ -47,6 +47,7 @@
         "eslint-plugin-react-hooks": "5.0.0-next-4fcc9184a-20230217",
         "prettier": "3.0.2",
         "react-app-alias": "2.2.2",
+        "serve": "^14.2.1",
         "sharp": "0.32.5",
         "tslint-config-prettier": "1.18.0",
         "typescript": "5.2.2",

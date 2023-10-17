@@ -4,8 +4,6 @@ import Typography from "@mui/material/Typography";
 import IconButton from "@mui/material/IconButton";
 import SvgIcon from "@mui/material/SvgIcon";
 import { MainLogo } from "@components";
-import { useT } from "talkr";
-import { Link } from "react-router-dom";
 
 import { footerImages, type FooterImageProps } from "./footer-images";
 import type { VNode } from "preact";
@@ -13,8 +11,6 @@ import type { VNode } from "preact";
 import { styles } from "./styles";
 
 const Footer = (): VNode => {
-  const { T } = useT();
-
   return (
     <Grid
       container={true}

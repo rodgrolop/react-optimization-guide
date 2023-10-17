@@ -16,5 +16,5 @@ module.exports = {
             plugin: CracoAliasPlugin,
             options: options,
         },
-    ]
+    ],
 }
